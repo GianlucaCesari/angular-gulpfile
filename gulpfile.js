@@ -25,7 +25,7 @@ gulp.task('js', function() {
     return gulp.src(paths.dev.js)
         .pipe(concat(paths.dist.js.name))
         .pipe(ngmin())
-        .pipe(uglify())
+        .pipe(uglify({ mangle: false }))
         .pipe(gulp.dest(paths.dist.js.dest));
 });
 
