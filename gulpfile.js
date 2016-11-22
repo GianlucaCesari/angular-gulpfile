@@ -40,11 +40,11 @@ gulp.task('sass', function() {
 
 gulp.task('dist', function() {
     // add your optimizations
-    console.log("Updated for distribution");
+    console.log("Updated");
 });
 
 
-gulp.task('watch', function() {
+gulp.task('watch', ['sass', 'js'], function() {
     console.log('js directory: ' + paths.dev.js.join(', '));
     console.log('sass directory: ' + paths.dev.sass.join(', '));
     gulp.watch(paths.dev.sass, ['sass']);
