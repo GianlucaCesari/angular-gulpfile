@@ -2,7 +2,7 @@
 Gulpfile for angular 1.x and scss/sass compiling
 
 ## How to use
-Simply download it and put it on the root folder of your project, then run (make sure you are positioned in the root of your project!)  :
+Simply download gulpfile.js and put it on the root folder of your project, then run (make sure you are positioned in the root of your project!)  :
 
 ```bash
 $ npm install gulp
