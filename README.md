@@ -27,6 +27,10 @@ It will poll for changes automatically and minimize all your files ready for dis
 
 When you are ready for production just hit :
 ```bash
+$ gulp dist
+```
+To remove all the debug logs and then:
+```bash
 $ gulp zip
 ```
 To have yout latest reales zipped and ready!
